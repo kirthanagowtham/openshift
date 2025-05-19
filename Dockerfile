@@ -1,5 +1,5 @@
 # Use official Tomcat 9 base image
-FROM tomcat:9-jdk11
+FROM tomcat:9.0-jdk11
 
 # Remove default apps (optional, to clean up ROOT)
 RUN rm -rf /usr/local/tomcat/webapps/*
